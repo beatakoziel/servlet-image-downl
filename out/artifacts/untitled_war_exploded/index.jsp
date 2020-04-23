@@ -1,16 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: beata
-  Date: 11.04.2020
-  Time: 16:31
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
-</html>
+<%@include file="WEB-INF/header.jsp"%>
+<%@include file="WEB-INF/mvc_content.jsp"%>
+<%@include file="WEB-INF/footer.jsp"%>
+

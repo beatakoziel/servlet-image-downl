@@ -26,6 +26,16 @@
         <servlet-class>servlet.FileServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>DateServlet</servlet-name>
+        <servlet-class>servlet.DateServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>BmiServlet</servlet-name>
+        <servlet-class>servlet.BmiServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>TextServlet</servlet-name>
         <url-pattern>/text</url-pattern>
@@ -46,13 +56,18 @@
         <url-pattern>/flower</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>DateServlet</servlet-name>
+        <url-pattern>/date</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>BmiServlet</servlet-name>
+        <url-pattern>/bmi</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
-        <welcome-file>index.htm</welcome-file>
         <welcome-file>index.jsp</welcome-file>
-        <welcome-file>default.html</welcome-file>
-        <welcome-file>default.htm</welcome-file>
-        <welcome-file>default.jsp</welcome-file>
     </welcome-file-list>
 
 </web-app>
