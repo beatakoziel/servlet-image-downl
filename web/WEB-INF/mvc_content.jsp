@@ -30,6 +30,7 @@
                         out.print("<p> Your weight in kg: " + request.getAttribute("weight") + "</p>");
                         out.print("<p> Your height in m: " + request.getAttribute("height") + "</p>");
                         out.print("<p> Your BMI: " + request.getAttribute("bmi") + "</p>");
+                        out.print("<p>" + request.getAttribute("cookieBmiInfo")+"</p>");
                     }
                 %>
             </blockquote>
